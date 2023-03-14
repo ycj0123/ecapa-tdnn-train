@@ -52,5 +52,6 @@ Remember to go through `lang_id/hparams/train_ecapa.yaml` and update the config 
 The WDS shards are not currently used during testing, only the metadata and the original files are used. Remember to go through `lang_id/test/hyperparams.yaml` and update the config as well, especially the `label_encoder`.
 
 ```bash=
+    cd test
     python test.py -m path/to/test/meta -d path/to/original/test/data
 ```
