@@ -20,7 +20,7 @@ Audio files should be converted into `.wav` files, and structured as follows:
 
 Audio files should be DERECTLY under ecah language folder for `split_dataset.py` to work properly.
 
-## Splitting Dataset
+## Splitting the Dataset
 
 Assuming the dataset is not yet split into train/val/test set, run the following:
 
@@ -49,7 +49,7 @@ python train.py hparams/train_ecapa.yaml
 
 ## Testing
 
-The WDS shards are not currently used during testing, only the metadata and the original files are used. Remember to go through `lang_id/test/hyperparams.yaml` and update the config as well, especially the `label_encoder`.
+The WDS shards are not currently used during testing, and only the metadata and the original files are used. Remember to go through `lang_id/test/hyperparams.yaml` and update the config as well, especially the `label_encoder`.
 
 ```bash=
 cd test
