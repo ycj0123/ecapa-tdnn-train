@@ -18,7 +18,7 @@ Audio files should be converted into `.wav` files, and structured as follows:
         ...
 ```
 
-Audio files should be DERECTLY under ecah language folder for `split_dataset.py` to work properly.
+Audio files should be DIRECTLY under ecah language folder for `split_dataset.py` to work properly.
 
 ## Splitting the Dataset
 
