@@ -1,0 +1,7 @@
+HyperPyYAML==1.1.0
+scikit_learn==1.2.2
+speechbrain==0.5.13
+torch==1.13.1
+torchaudio==0.13.1
+tqdm==4.64.1
+webdataset==0.2.33
